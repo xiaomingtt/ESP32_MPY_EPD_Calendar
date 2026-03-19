@@ -6,3 +6,5 @@
 双击GPIO1进入相册，从images目录随机显示一张照片，通过GPIO1、2查看其他照片。
 长按GPIO1进入课程表，同时启动Web服务，可访问设备IP编辑课程表。
 长按GPIO2返回当前月日历。
+除了https://gitee.com/walkline/micropython-timer-dispatcher和https://github.com/jczic/MicroWebSrv这两个库来自网络，其他所有代码都由AI完成。
+小部分代码由ChatGPT、Gemini、DeepSeek完成，大部分代码都由豆包完成。
