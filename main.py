@@ -82,8 +82,8 @@ def update_current_time():
 update_current_time()
 
 
-KEY = "5a57e0ac54614010998a5bcc5ce13878"
-LOC = "122.059756,37.212771" 
+KEY = "和风天气API"
+LOC = "2.059756,3.212771" 
 weather_api = QWeather(KEY, LOC)
 
 def get_Weather():
