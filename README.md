@@ -1,2 +1,8 @@
-# ESP32_MPY_EPD_Calendar
-ESP32S3 Micropython Electronic Paper Display Calendar Timetable Photo Album
+主控：ESP32S8R8N8
+墨水屏IC：SSD1683
+集成日历（公历、农历、法定节假日）、天气、课程表、电子相册等功能。
+首次开机自动进入配网模式，连接热点后访问192.168.4.1进行配网。
+系统启动自动同步时间获取天气和法定节假日数据，显示当月日历，通过GPIO1、2查看前后月份日历。
+双击GPIO1进入相册，从images目录随机显示一张照片，通过GPIO1、2查看其他照片。
+长按GPIO1进入课程表，同时启动Web服务，可访问设备IP编辑课程表。
+长按GPIO2返回当前月日历。
